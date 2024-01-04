@@ -31,8 +31,6 @@ class TScriptStart extends Command
         $database = env('DB_DATABASE', false);
         if (!$database) {
             $this->info('Skipping creation of database as env(DB_DATABASE) is empty');
-            $data['message'] = 'Skipping creation of database as env(DB_DATABASE) is empty';
-            $data['success'] = false;
             return 1;
         }
 

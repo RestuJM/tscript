@@ -42,6 +42,23 @@
             },
         });
         $(document).ready(function() {
+            toastr.options = {
+                closeButton: true,
+                debug: false,
+                newestOnTop: true,
+                progressBar: true,
+                positionClass: "toast-top-right",
+                preventDuplicates: false,
+                onclick: null,
+                showDuration: "10000",
+                hideDuration: "10000",
+                timeOut: "10000",
+                extendedTimeOut: "10000",
+                showEasing: "swing",
+                hideEasing: "linear",
+                showMethod: "fadeIn",
+                hideMethod: "fadeOut",
+            };
             $(".db").on("click", function() {
                 $('.db').attr('disabled', true);
                 $.ajax({
@@ -61,7 +78,7 @@
                                 window.location = base_url;
                             }, 3000);
                         } else {
-                            toastr.error('Error handler.', 'Information');
+                            toastr.error('Error handler.<br> Please check your .env file<br> for '+"{{env('APP_VERSION')}}"+' database "pgsql" only, "mysql" in progress.', 'Information');
                             $('.db').attr('disabled', false);
                         }
                     },
