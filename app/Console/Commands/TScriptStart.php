@@ -43,8 +43,12 @@ class TScriptStart extends Command
             $this->info('Success create "DATABASE", run "MIGRATION", and run "SEEDER"');
             return 0;
         } else if (env('DB_CONNECTION') == 'mysql') {
-            $this->info('DB CONNECTION FOR --- MYSQL --- IN PROGRESS');
-            return 2;
+            DB::connection('mysql_conn')->statement('CREATE DATABASE IF NOT EXISTS ' . $database);
+
+            Artisan::call('migrate --path=/database/migrations/mysql/');
+            Artisan::call('db:seed --class=UsersSeed');
+            $this->info('Success create "DATABASE", run "MIGRATION", and run "SEEDER"');
+            return 0;
         } else {
             $this->info('PLEASE CHOICE "pgsql" OR "mysql" FOR DB_CONNECTION');
             return 2;

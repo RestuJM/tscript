@@ -29,7 +29,19 @@ class UsersSeed extends Seeder
                     ]
                 ]);
         } else if (env('DB_CONNECTION') == 'mysql') {
-            $this->command->info('Users for MYSQL IN PROGRESS');
+            DB::table('users')
+                ->insert([
+                    [
+                        'name'              => 'Development',
+                        'username'          => 'dev',
+                        'email'             => 'dev@exam.co',
+                        'email_verified_at' => Carbon::now(),
+                        'password'          => bcrypt('qwertz123'),
+                        'role_id'           => 1,
+                        'created_at'        => Carbon::now(),
+                        'updated_at'        => Carbon::now()
+                    ]
+                ]);
         } else {
             $this->command->info('PLEASE CHOICE "pgsql" OR "mysql" FOR DB_CONNECTION');
         }
