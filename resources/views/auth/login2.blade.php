@@ -1,8 +1,18 @@
 @extends('layouts.login')
 
 @section('content')
-    <div class="card-body">
-        <form class="form-horizontal" method="POST" action="{{ route('login') }}">
+    <div class="card-content">
+        @error('email')
+            <div class="alert alert-danger alert-dismissible mb-2" role="alert">
+                <strong>{{ $message }}</strong>
+            </div>
+        @enderror
+        @error('password')
+            <div class="alert alert-danger alert-dismissible mb-2" role="alert">
+                <strong>{{ $message }}</strong>
+            </div>
+        @enderror
+        <form class="form-horizontal mt-2 " method="POST" action="{{ route('login') }}">
             @csrf
             <fieldset class="form-group position-relative has-icon-left">
                 <input type="text" class="form-control @error('email') is-invalid @enderror" id="email" name="email"
@@ -10,11 +20,6 @@
                 <div class="form-control-position">
                     <i class="ft-user"></i>
                 </div>
-                @error('email')
-                    <span class="invalid-feedback text-danger " role="alert">
-                        <strong>{{ $message }}</strong>
-                    </span>
-                @enderror
             </fieldset>
             <fieldset class="form-group position-relative has-icon-left">
                 <input type="password" class="form-control @error('password') is-invalid @enderror" id="password" name="password"
@@ -22,11 +27,6 @@
                 <div class="form-control-position">
                     <i class="fa fa-key"></i>
                 </div>
-                @error('password')
-                    <span class="invalid-feedback text-danger " role="alert">
-                        <strong>{{ $message }}</strong>
-                    </span>
-                @enderror
             </fieldset>
             <div class="form-group row">
                 <div class="col-md-6 col-12 text-center text-sm-left">

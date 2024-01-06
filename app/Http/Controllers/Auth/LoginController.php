@@ -6,6 +6,8 @@ use App\Http\Controllers\Controller;
 use App\Providers\RouteServiceProvider;
 use Illuminate\Foundation\Auth\AuthenticatesUsers;
 use Illuminate\Support\Facades\Auth;
+use Illuminate\Http\Request;
+use Illuminate\Validation\ValidationException;
 
 class LoginController extends Controller
 {
@@ -29,6 +31,12 @@ class LoginController extends Controller
      */
     protected $redirectTo = RouteServiceProvider::HOME;
 
+    /*
+    * Add delay hit login
+    */
+    protected $maxAttempts = 3; // Default is 5
+    protected $decayMinutes = 2; // Default is 1
+
     /**
      * Create a new controller instance.
      *
@@ -51,6 +59,7 @@ class LoginController extends Controller
         request()->merge([$field => $login]);
         return $field;
     }
+
     /**
      * Check User Active
      *
@@ -60,9 +69,23 @@ class LoginController extends Controller
     {
         if (Auth::user()->is_active < 1) {
             return redirect('/')->with('error', 'Your account is inactive');
-        } else {
-
-            return redirect($this->redirectTo);
         }
+        return redirect($this->redirectTo);
+    }
+
+    /**
+     * Get the failed login response instance.
+     *
+     * @param  \Illuminate\Http\Request  $request
+     * @return \Symfony\Component\HttpFoundation\Response
+     *
+     * @throws \Illuminate\Validation\ValidationException
+     */
+    protected function sendFailedLoginResponse(Request $request)
+    {
+        throw ValidationException::withMessages([
+            $this->username() => ['Username or Email not found.'],
+            'password' => ['Password is wrong.'],
+        ]);
     }
 }

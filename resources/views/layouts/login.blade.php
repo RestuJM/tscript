@@ -34,6 +34,15 @@
     <link rel="stylesheet" type="text/css" href="{{ asset('backend/assets/css/style.css') }}">
     <!-- END Custom CSS-->
     <link rel="stylesheet" type="text/css" href="{{ asset('plugins/toastr/toastr.min.css') }}">
+    <!-- FontAwesome 6.2.0 CSS -->
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous"
+        referrerpolicy="no-referrer"
+    />
+
     @yield('css')
     <script>
         var base_url = "{{ url('/') }}";
@@ -58,10 +67,7 @@
                                         <h1 class="fw-bold"><strong>{{env('APP_AUTH')}}</strong></h1>
                                     </div>
                                 </div>
-                                <div class="card-content">
-                                    @error('error')
-                                        <div class=" text-danger ">{{ $message }}</div>
-                                    @enderror
+                                <div class="card-body">
                                     @yield('content')
                                 </div>
                             </div>

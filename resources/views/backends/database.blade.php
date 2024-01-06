@@ -29,9 +29,10 @@
 @endsection
 @section('content')
     <div class="card-body text-center">
-        <button type="button" class="btn btn-primary db"
-            data-loading-text="<i class='fas fa-spinner fa-pulse'></i> Sedang Proses...">Create
-            Database</button>
+        <button type="button" class="btn btn-primary db">
+            <i class="fas fa-database"></i>
+            Create Database
+        </button>
     </div>
 @endsection
 @section('js')
