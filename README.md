@@ -3,7 +3,7 @@ TScript `v1.0.0` is starter pack laravel project.
 
 ## Database
 1. `pgsql` is Ready
-2. `mysql` in Progress
+2. `mysql` in Ready
 
 ## How to install
 1. Run `composer install`
