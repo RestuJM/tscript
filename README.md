@@ -9,5 +9,5 @@ TScript `v1.0.0` is starter pack laravel project.
 1. Run `composer install`
 2. Run `cp` or `copy` `.env.example .env`
 3. Run `php artisan key:generate`
-4. Check `.env` for set your configuration
+4. Check `.env` for set your configuration database
 5. Run `php artisan serve` or `php artisan app:tscript-start`
