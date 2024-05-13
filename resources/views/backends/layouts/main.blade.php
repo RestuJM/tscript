@@ -14,7 +14,6 @@
     <script>
         var base_url = "{{url('/')}}";
     </script>
-    @yield('css')
 </head>
 
 <body class="vertical-layout vertical-menu 2-columns   menu-expanded fixed-navbar" data-open="click" data-menu="vertical-menu" data-col="2-columns">
@@ -37,7 +36,6 @@
 
     @include('backends.layouts.main_footer')
     @include('backends.layouts.main_js')
-    @yield('js')
 
 </body>
 

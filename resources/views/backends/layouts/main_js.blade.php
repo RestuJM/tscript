@@ -22,3 +22,4 @@
 <!-- END PAGE LEVEL JS-->
 <script src="{{asset('customs/js/custome.js')}}"></script>
 <script src="{{ asset('plugins/toastr/toastr.min.js') }}"></script>
+@yield('js')

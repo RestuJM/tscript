@@ -23,3 +23,5 @@
 <link rel="stylesheet" type="text/css" href="{{asset('backend/assets/css/style.css')}}">
 <!-- END Custom CSS-->
 <link rel="stylesheet" type="text/css" href="{{asset('plugins/toastr/toastr.min.css')}}">
+
+@yield('css')
