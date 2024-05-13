@@ -1,13 +1,13 @@
 /*=========================================================================================
 	File Name: vertical-multi-level-menu.scss
-	Description: A multi level vertical style menu with show and hide support. It support 
-	light & dark version, filpped layout, right side icons, native scroll and borders menu item 
+	Description: A multi level vertical style menu with show and hide support. It support
+	light & dark version, filpped layout, right side icons, native scroll and borders menu item
 	seperation.
 	----------------------------------------------------------------------------------------
-	Item Name: Robust - Responsive Admin Theme
-	Version: 1.2
-	Author: PIXINVENT
-	Author URL: http://www.themeforest.net/user/pixinvent
+   	Item Name:
+	Version: 0.1
+	Author: TS
+	Author URL:
 ==========================================================================================*/
 .mm-hidden
 {
@@ -16,7 +16,7 @@
 
 .mm-wrapper
 {
-    position: relative; 
+    position: relative;
 
     overflow-x: hidden;
 }
@@ -24,7 +24,7 @@
 .mm-menu
 {
     position: absolute;
-    z-index: 0; 
+    z-index: 0;
     top: 0;
     right: 0;
     bottom: 0;
@@ -45,7 +45,7 @@
 .mm-panels > .mm-panel
 {
     position: absolute;
-    z-index: 0; 
+    z-index: 0;
     top: 0;
     right: 0;
     bottom: 0;
@@ -100,7 +100,7 @@
     overflow-x: hidden;
     overflow-y: auto;
 
-    padding: 0 20px; 
+    padding: 0 20px;
 
     -webkit-overflow-scrolling: touch;
 }
@@ -113,7 +113,7 @@
 {
     display: block;
 
-    height: 20px; 
+    height: 20px;
 
     content: '';
 }
@@ -149,7 +149,7 @@ li.mm-vertical.mm-opened > .mm-panel
 .mm-vertical .mm-listview > li > .mm-next,
 .mm-listview > li.mm-vertical > .mm-next
 {
-    bottom: auto; 
+    bottom: auto;
 
     height: 40px;
 }
@@ -163,7 +163,7 @@ li.mm-vertical.mm-opened > .mm-panel
 .mm-vertical .mm-listview > li.mm-opened > .mm-next:after,
 .mm-listview > li.mm-vertical.mm-opened > .mm-next:after
 {
-    right: 19px; 
+    right: 19px;
 
     -webkit-transform: rotate(45deg);
        -moz-transform: rotate(45deg);
@@ -175,7 +175,7 @@ li.mm-vertical.mm-opened > .mm-panel
 .mm-btn
 {
     position: absolute;
-    z-index: 1; 
+    z-index: 1;
     top: 0;
 
     -webkit-box-sizing: border-box;
@@ -205,7 +205,7 @@ li.mm-vertical.mm-opened > .mm-panel
        -moz-transform: rotate(-45deg);
         -ms-transform: rotate(-45deg);
          -o-transform: rotate(-45deg);
-            transform: rotate(-45deg); 
+            transform: rotate(-45deg);
 
     border: 2px solid transparent;
 }
@@ -213,7 +213,7 @@ li.mm-vertical.mm-opened > .mm-panel
 .mm-clear:before,
 .mm-close:before
 {
-    right: 20px; 
+    right: 20px;
 
     border-right: none;
     border-bottom: none;
@@ -222,7 +222,7 @@ li.mm-vertical.mm-opened > .mm-panel
 .mm-clear:after,
 .mm-close:after
 {
-    right: 25px; 
+    right: 25px;
 
     border-top: none;
     border-left: none;
@@ -247,14 +247,14 @@ li.mm-vertical.mm-opened > .mm-panel
        -moz-transform: rotate(-45deg);
         -ms-transform: rotate(-45deg);
          -o-transform: rotate(-45deg);
-            transform: rotate(-45deg); 
+            transform: rotate(-45deg);
 
     border: 2px solid transparent;
 }
 
 .mm-prev:before
 {
-    left: 23px; 
+    left: 23px;
 
     border-right: none;
     border-bottom: none;
@@ -263,7 +263,7 @@ li.mm-vertical.mm-opened > .mm-panel
 .mm-next:after,
 .mm-arrow:after
 {
-    right: 23px; 
+    right: 23px;
 
     border-top: none;
     border-left: none;
@@ -275,7 +275,7 @@ li.mm-vertical.mm-opened > .mm-panel
 
     position: absolute;
     top: 0;
-    right: 0; 
+    right: 0;
     left: 0;
 
     height: 40px;
@@ -300,20 +300,20 @@ li.mm-vertical.mm-opened > .mm-panel
 }
 .mm-navbar .mm-title
 {
-    overflow: hidden; 
+    overflow: hidden;
 
     white-space: nowrap;
     text-overflow: ellipsis;
 }
 .mm-navbar .mm-btn:first-child
 {
-    left: 0; 
+    left: 0;
 
     padding-left: 20px;
 }
 .mm-navbar .mm-btn:last-child
 {
-    right: 0; 
+    right: 0;
 
     padding-right: 20px;
 
@@ -335,7 +335,7 @@ li.mm-vertical.mm-opened > .mm-panel
 {
     display: block;
 
-    margin: 0; 
+    margin: 0;
     padding: 0;
 
     list-style: none;
@@ -369,7 +369,7 @@ li.mm-vertical.mm-opened > .mm-panel
     display: block;
     overflow: hidden;
 
-    margin: 0; 
+    margin: 0;
     padding: 10px 10px 10px 20px;
 
     white-space: nowrap;
@@ -386,7 +386,7 @@ li.mm-vertical.mm-opened > .mm-panel
 {
     position: absolute;
     right: 0;
-    bottom: 0; 
+    bottom: 0;
     left: 0;
 
     display: block;
@@ -403,7 +403,7 @@ li.mm-vertical.mm-opened > .mm-panel
 .mm-listview .mm-next
 {
     position: absolute;
-    z-index: 2; 
+    z-index: 2;
     top: 0;
     right: 0;
     bottom: 0;
@@ -418,7 +418,7 @@ li.mm-vertical.mm-opened > .mm-panel
     position: absolute;
     top: 0;
     bottom: 0;
-    left: 0; 
+    left: 0;
 
     display: block;
 
@@ -443,7 +443,7 @@ li.mm-vertical.mm-opened > .mm-panel
 .mm-listview .mm-next.mm-fullsubopen + a,
 .mm-listview .mm-next.mm-fullsubopen + span
 {
-    margin-right: 0; 
+    margin-right: 0;
     padding-right: 50px;
 }
 
@@ -460,7 +460,7 @@ li.mm-vertical.mm-opened > .mm-panel
 
 .mm-listview .mm-inset
 {
-    margin: 0; 
+    margin: 0;
     padding: 0 10px 15px 40px;
 
     list-style: inside disc;
@@ -473,7 +473,7 @@ li.mm-vertical.mm-opened > .mm-panel
 .mm-listview .mm-divider
 {
     font-size: 10px;
-    line-height: 25px; 
+    line-height: 25px;
 
     overflow: hidden;
 
@@ -507,7 +507,7 @@ li.mm-vertical.mm-opened > .mm-panel
 
     -webkit-transform: translate3d(0, 0, 0);
        -moz-transform: translate3d(0, 0, 0);
-            transform: translate3d(0, 0, 0); 
+            transform: translate3d(0, 0, 0);
 
     background: inherit;
 }
@@ -515,7 +515,7 @@ li.mm-vertical.mm-opened > .mm-panel
 .mm-navbar-bottom
 {
     top: auto;
-    bottom: 0; 
+    bottom: 0;
 
     border-top-width: 1px;
     border-top-style: solid;
@@ -540,7 +540,7 @@ li.mm-vertical.mm-opened > .mm-panel
 .mm-navbar[class*='mm-navbar-content-'] > *
 {
     display: block;
-    float: left; 
+    float: left;
 
     -webkit-box-sizing: border-box;
        -moz-box-sizing: border-box;
@@ -552,7 +552,7 @@ li.mm-vertical.mm-opened > .mm-panel
     overflow: hidden;
     overflow-x: auto;
 
-    padding: 0 0 0 17px; 
+    padding: 0 0 0 17px;
 
     text-align: left;
     white-space: nowrap;
@@ -715,7 +715,7 @@ li.mm-vertical.mm-opened > .mm-panel
 
 .mm-search
 {
-    position: relative; 
+    position: relative;
 
     height: 40px;
     padding: 7px 10px 0 10px;
@@ -731,7 +731,7 @@ li.mm-vertical.mm-opened > .mm-panel
     width: 100%;
     height: 26px;
     margin: 0;
-    padding: 0 10px; 
+    padding: 0 10px;
 
     border: none !important;
     border-radius: 26px;
@@ -753,7 +753,7 @@ li.mm-vertical.mm-opened > .mm-panel
 {
     position: absolute;
     top: 0;
-    left: 0; 
+    left: 0;
 
     width: 100%;
 }
@@ -775,7 +775,7 @@ li.mm-vertical.mm-opened > .mm-panel
 {
     font-size: 21px;
 
-    padding: 40px 0; 
+    padding: 40px 0;
 
     text-align: center;
 }
@@ -804,7 +804,7 @@ li.mm-nosubresults > a.mm-next + span
 
 .mm-menu .mm-search input
 {
-    color: rgba(0, 0, 0, .7); 
+    color: rgba(0, 0, 0, .7);
     background: rgba(0, 0, 0, .05);
 }
 
@@ -815,7 +815,7 @@ li.mm-nosubresults > a.mm-next + span
 
 .mm-menu
 {
-    color: rgba(0, 0, 0, .7); 
+    color: rgba(0, 0, 0, .7);
     border-color: rgba(0, 0, 0, .1);
     background: #f3f3f3;
 }
@@ -882,7 +882,7 @@ li.mm-nosubresults > a.mm-next + span
 
     padding: 0;
 
-    text-indent: 0; 
+    text-indent: 0;
     text-transform: uppercase;
 }
 
@@ -1015,7 +1015,7 @@ li.mm-nosubresults > a.mm-next + span
 {
     font-size: 1.2rem;
 
-    top: 3px; 
+    top: 3px;
 
     float: left;
 
@@ -1044,7 +1044,7 @@ li.mm-nosubresults > a.mm-next + span
     display: inline-block;
 
     content: '\f105';
-    transition: -webkit-transform .2s ease-in-out; 
+    transition: -webkit-transform .2s ease-in-out;
     -webkit-transform: rotate(0deg);
        -moz-transform: rotate(0deg);
         -ms-transform: rotate(0deg);

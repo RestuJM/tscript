@@ -4,10 +4,10 @@
 	light & dark version, filpped layout, right side icons, native scroll and borders menu
 	item seperation.
 	----------------------------------------------------------------------------------------
-	Item Name: Robust - Responsive Admin Template
-	Version: 2.1
-	Author: PIXINVENT
-	Author URL: http://www.themeforest.net/user/pixinvent
+   	Item Name:
+	Version: 0.1
+	Author: TS
+	Author URL:
 ==========================================================================================*/
 .vertical-content-menu.menu-expanded .navbar .navbar-header
 {
@@ -35,7 +35,7 @@
 
 .vertical-content-menu.menu-expanded .main-menu
 {
-    top: inherit; 
+    top: inherit;
 
     width: 240px;
 
@@ -67,7 +67,7 @@
 .vertical-content-menu.menu-expanded .main-menu .navigation > li > a > span.tag
 {
     position: absolute;
-    top: 10px; 
+    top: 10px;
     right: 20px;
 }
 .vertical-content-menu.menu-expanded .main-menu .navigation li.has-sub > a:not(.mm-next):after
@@ -82,7 +82,7 @@
     display: inline-block;
 
     content: '\f105';
-    transition: -webkit-transform .2s ease-in-out; 
+    transition: -webkit-transform .2s ease-in-out;
     -webkit-transform: rotate(0deg);
        -moz-transform: rotate(0deg);
         -ms-transform: rotate(0deg);
@@ -135,7 +135,7 @@
     }
     .vertical-content-menu.menu-expanded.menu-flipped.boxed-layout .main-menu
     {
-        position: relative; 
+        position: relative;
 
         float: right;
     }
@@ -178,7 +178,7 @@
 
 .vertical-content-menu.menu-collapsed .main-menu
 {
-    top: inherit; 
+    top: inherit;
 
     width: 61px;
 
@@ -216,7 +216,7 @@
     left: 61px;
 
     width: 240px;
-    padding: 14px 20px; 
+    padding: 14px 20px;
 
     text-align: left;
     text-transform: uppercase;
@@ -237,13 +237,13 @@
             transition: visibility .25s,opacity .25s;
 
     border-bottom: 1px solid rgba(0, 0, 0, .2);
-    border-left: 1px solid rgba(0, 0, 0, .02); 
+    border-left: 1px solid rgba(0, 0, 0, .02);
     -webkit-box-shadow: 25px 5px 75px 2px rgba(64, 70, 74, .2);
             box-shadow: 25px 5px 75px 2px rgba(64, 70, 74, .2);
 }
 .vertical-content-menu.menu-collapsed .main-menu .main-menu-content > ul.menu-content li
 {
-    position: relative; 
+    position: relative;
 
     white-space: nowrap;
 }
@@ -270,7 +270,7 @@
     display: inline-block;
 
     content: '\f105';
-    transition: -webkit-transform .2s ease-in-out; 
+    transition: -webkit-transform .2s ease-in-out;
     -webkit-transform: rotate(0deg);
        -moz-transform: rotate(0deg);
         -ms-transform: rotate(0deg);
@@ -317,7 +317,7 @@
 }
 .vertical-content-menu.menu-collapsed .main-menu .navigation > li.navigation-header .ft-minus
 {
-    font-size: 1.6rem; 
+    font-size: 1.6rem;
 
     display: block;
 
@@ -346,7 +346,7 @@
     visibility: hidden;
 
     width: 240px;
-    padding: 11px 20px; 
+    padding: 11px 20px;
 
     text-align: left;
 
@@ -359,7 +359,7 @@
 {
     font-size: 1.4rem;
 
-    visibility: visible; 
+    visibility: visible;
 
     margin-right: 0;
 }
@@ -414,7 +414,7 @@
     }
     .vertical-content-menu.menu-collapsed.menu-flipped.boxed-layout .main-menu
     {
-        position: relative; 
+        position: relative;
 
         float: right;
     }
@@ -448,7 +448,7 @@
 
 .vertical-content-menu.boxed-layout.menu-flipped .main-men
 {
-    position: relative; 
+    position: relative;
 
     float: right;
 }
@@ -519,14 +519,14 @@
 
 /*=========================================================================================
 	File Name: vertical-overlay-menu.scss
-	Description: A overlay style vertical menu with show and hide support. It support 
-	light & dark version, filpped layout, right side icons, native scroll and borders menu 
+	Description: A overlay style vertical menu with show and hide support. It support
+	light & dark version, filpped layout, right side icons, native scroll and borders menu
 	item seperation.
 	----------------------------------------------------------------------------------------
-	Item Name: Robust - Responsive Admin Template
-	Version: 2.1
-	Author: PIXINVENT
-	Author URL: http://www.themeforest.net/user/pixinvent
+   	Item Name:
+	Version: 0.1
+	Author: TS
+	Author URL:
 ==========================================================================================*/
 .vertical-overlay-menu .content
 {
@@ -555,7 +555,7 @@
 .vertical-overlay-menu .main-menu,
 .vertical-overlay-menu.menu-hide .main-menu
 {
-    left: -240px; 
+    left: -240px;
 
     width: 240px;
 
@@ -600,7 +600,7 @@
     display: inline-block;
 
     content: '\f105';
-    transition: -webkit-transform .2s ease-in-out; 
+    transition: -webkit-transform .2s ease-in-out;
     -webkit-transform: rotate(0deg);
        -moz-transform: rotate(0deg);
         -ms-transform: rotate(0deg);
@@ -635,7 +635,7 @@
          -o-transition: width .25s,opacity .25s,-o-transform .25s;
             transition: width .25s,opacity .25s,-webkit-transform .25s;
             transition: width .25s,opacity .25s,transform .25s;
-            transition: width .25s,opacity .25s,transform .25s,-webkit-transform .25s,-moz-transform .25s,-o-transform .25s; 
+            transition: width .25s,opacity .25s,transform .25s,-webkit-transform .25s,-moz-transform .25s,-o-transform .25s;
     -webkit-transform: translate3d(240px, 0, 0);
        -moz-transform: translate3d(240px, 0, 0);
             transform: translate3d(240px, 0, 0);

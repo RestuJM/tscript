@@ -2,10 +2,10 @@
   File Name: app.js
   Description: Template related app JS.
   ----------------------------------------------------------------------------------------
-  Item Name: Robust - Responsive Admin Template
-  Version: 2.1
-  Author: Pixinvent
-  Author URL: hhttp://www.themeforest.net/user/pixinvent
+  Item Name:
+  Version: 0.1
+  Author: TS
+  Author URL:
 ==========================================================================================*/
 
 (function(window, document, $) {

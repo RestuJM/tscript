@@ -29,7 +29,7 @@ Route::get('/', function(){
         Illuminate\Support\Facades\DB::connection()->getPdo();
         return view('auth.login2');
     } catch (\Exception $e) {
-       return view('backends.database');
+       return view('database');
     }
 });
 

@@ -4,10 +4,10 @@
 	It support light & dark version, filpped layout, right side icons, native scroll and borders menu
 	item seperation.
 	----------------------------------------------------------------------------------------
-	Item Name: Robust - Responsive Admin Template
-	Version: 2.1
-	Author: PIXINVENT
-	Author URL: http://www.themeforest.net/user/pixinvent
+   	Item Name:
+	Version: 0.1
+	Author: TS
+	Author URL:
 ==========================================================================================*/
 .vertical-compact-menu .content
 {
@@ -42,7 +42,7 @@
 .vertical-compact-menu .vertical-overlay-menu.menu-hide .main-menu,
 .vertical-overlay-menu.menu-hide .vertical-compact-menu .main-menu
 {
-    left: 0; 
+    left: 0;
 
     width: 150px;
 }
@@ -50,7 +50,7 @@
 {
     display: block;
 
-    padding: 0; 
+    padding: 0;
 
     text-align: center;
 }
@@ -66,7 +66,7 @@
 
     width: auto;
     margin: 0;
-    margin-top: .5rem; 
+    margin-top: .5rem;
     padding: 0;
 
     text-align: center;
@@ -83,7 +83,7 @@
     left: 150px;
 
     width: 240px;
-    padding: 14px 20px; 
+    padding: 14px 20px;
 
     text-align: left;
     text-transform: uppercase;
@@ -104,13 +104,13 @@
             transition: visibility .25s,opacity .25s;
 
     border-bottom: 1px solid rgba(0, 0, 0, .2);
-    border-left: 1px solid rgba(0, 0, 0, .02); 
+    border-left: 1px solid rgba(0, 0, 0, .02);
     -webkit-box-shadow: 25px 5px 75px 2px rgba(64, 70, 74, .2);
             box-shadow: 25px 5px 75px 2px rgba(64, 70, 74, .2);
 }
 .vertical-compact-menu .main-menu .main-menu-content > ul.menu-content li
 {
-    position: relative; 
+    position: relative;
 
     white-space: nowrap;
 }
@@ -137,7 +137,7 @@
     display: inline-block;
 
     content: '\f105';
-    transition: -webkit-transform .2s ease-in-out; 
+    transition: -webkit-transform .2s ease-in-out;
     -webkit-transform: rotate(0deg);
        -moz-transform: rotate(0deg);
         -ms-transform: rotate(0deg);
@@ -180,7 +180,7 @@
 }
 .vertical-compact-menu .main-menu .navigation > li.navigation-header
 {
-    font-weight: 800; 
+    font-weight: 800;
 
     padding: 12px 20px;
 
@@ -201,7 +201,7 @@
     -webkit-transition: visibility .25s,opacity .25s;
        -moz-transition: visibility .25s,opacity .25s;
          -o-transition: visibility .25s,opacity .25s;
-            transition: visibility .25s,opacity .25s; 
+            transition: visibility .25s,opacity .25s;
     text-align: center;
 }
 .vertical-compact-menu .main-menu .navigation > li > a > i
@@ -227,7 +227,7 @@
 {
     overflow: hidden;
 
-    vertical-align: middle; 
+    vertical-align: middle;
     white-space: nowrap;
     text-overflow: ellipsis;
 }
@@ -434,14 +434,14 @@
 
 /*=========================================================================================
 	File Name: vertical-overlay-menu.scss
-	Description: A overlay style vertical menu with show and hide support. It support 
-	light & dark version, filpped layout, right side icons, native scroll and borders menu 
+	Description: A overlay style vertical menu with show and hide support. It support
+	light & dark version, filpped layout, right side icons, native scroll and borders menu
 	item seperation.
 	----------------------------------------------------------------------------------------
-	Item Name: Robust - Responsive Admin Template
-	Version: 2.1
-	Author: PIXINVENT
-	Author URL: http://www.themeforest.net/user/pixinvent
+   	Item Name:
+	Version: 0.1
+	Author: TS
+	Author URL:
 ==========================================================================================*/
 .vertical-overlay-menu .content
 {
@@ -470,7 +470,7 @@
 .vertical-overlay-menu .main-menu,
 .vertical-overlay-menu.menu-hide .main-menu
 {
-    left: -240px; 
+    left: -240px;
 
     width: 240px;
 
@@ -515,7 +515,7 @@
     display: inline-block;
 
     content: '\f105';
-    transition: -webkit-transform .2s ease-in-out; 
+    transition: -webkit-transform .2s ease-in-out;
     -webkit-transform: rotate(0deg);
        -moz-transform: rotate(0deg);
         -ms-transform: rotate(0deg);
@@ -550,7 +550,7 @@
          -o-transition: width .25s,opacity .25s,-o-transform .25s;
             transition: width .25s,opacity .25s,-webkit-transform .25s;
             transition: width .25s,opacity .25s,transform .25s;
-            transition: width .25s,opacity .25s,transform .25s,-webkit-transform .25s,-moz-transform .25s,-o-transform .25s; 
+            transition: width .25s,opacity .25s,transform .25s,-webkit-transform .25s,-moz-transform .25s,-o-transform .25s;
     -webkit-transform: translate3d(240px, 0, 0);
        -moz-transform: translate3d(240px, 0, 0);
             transform: translate3d(240px, 0, 0);

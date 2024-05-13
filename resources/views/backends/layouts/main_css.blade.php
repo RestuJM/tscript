@@ -9,9 +9,9 @@
 <link rel="stylesheet" type="text/css" href="{{asset('backend/app-assets/vendors/css/extensions/unslider.css')}}">
 <link rel="stylesheet" type="text/css" href="{{asset('backend/app-assets/vendors/css/weather-icons/climacons.min.css')}}">
 <!-- END VENDOR CSS-->
-<!-- BEGIN ROBUST CSS-->
+<!-- BEGIN CSS-->
 <link rel="stylesheet" type="text/css" href="{{asset('backend/app-assets/css/app.css')}}">
-<!-- END ROBUST CSS-->
+<!-- END CSS-->
 <!-- BEGIN Page Level CSS-->
 <link rel="stylesheet" type="text/css" href="{{asset('backend/app-assets/css/core/menu/menu-types/vertical-menu.css')}}">
 <link rel="stylesheet" type="text/css" href="{{asset('backend/app-assets/css/core/colors/palette-gradient.css')}}">

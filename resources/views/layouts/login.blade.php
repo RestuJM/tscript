@@ -20,9 +20,9 @@
     <link rel="stylesheet" type="text/css" href="{{ asset('backend/app-assets/vendors/css/forms/icheck/icheck.css') }}">
     <link rel="stylesheet" type="text/css" href="{{ asset('backend/app-assets/vendors/css/forms/icheck/custom.css') }}">
     <!-- END VENDOR CSS-->
-    <!-- BEGIN ROBUST CSS-->
+    <!-- BEGIN CSS-->
     <link rel="stylesheet" type="text/css" href="{{ asset('backend/app-assets/css/app.css') }}">
-    <!-- END ROBUST CSS-->
+    <!-- END CSS-->
     <!-- BEGIN Page Level CSS-->
     <link rel="stylesheet" type="text/css"
         href="{{ asset('backend/app-assets/css/core/menu/menu-types/vertical-menu.css') }}">
@@ -85,10 +85,10 @@
     <!-- BEGIN PAGE VENDOR JS-->
     <script src="{{ asset('backend/app-assets/vendors/js/forms/icheck/icheck.min.js') }}"></script>
     <!-- END PAGE VENDOR JS-->
-    <!-- BEGIN ROBUST JS-->
+    <!-- BEGIN JS-->
     <script src="{{ asset('backend/app-assets/js/core/app-menu.js') }}"></script>
     <script src="{{ asset('backend/app-assets/js/core/app.js') }}"></script>
-    <!-- END ROBUST JS-->
+    <!-- END JS-->
     <script src="{{ asset('plugins/toastr/toastr.min.js') }}"></script>
     @yield('js')
 </body>

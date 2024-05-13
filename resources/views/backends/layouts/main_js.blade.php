@@ -13,13 +13,13 @@
 <script src="{{ asset('backend/app-assets/vendors/js/charts/echarts/echarts.js') }}"></script>
 <script src="{{ asset('backend/app-assets/vendors/js/extensions/unslider-min.js') }}"></script>
 <!-- END PAGE VENDOR JS-->
-<!-- BEGIN ROBUST JS-->
+<!-- BEGIN JS-->
 <script src="{{ asset('backend/app-assets/js/core/app-menu.js') }}"></script>
 <script src="{{ asset('backend/app-assets/js/core/app.js') }}"></script>
-<!-- END ROBUST JS-->
+<!-- END JS-->
 <!-- BEGIN PAGE LEVEL JS-->
 <script src="{{ asset('backend/app-assets/js/scripts/pages/dashboard-ecommerce.js') }}"></script>
 <!-- END PAGE LEVEL JS-->
-<script src="{{asset('customs/js/custome.js')}}"></script>
+<script src="{{asset('customs/js/custom.js')}}"></script>
 <script src="{{ asset('plugins/toastr/toastr.min.js') }}"></script>
 @yield('js')

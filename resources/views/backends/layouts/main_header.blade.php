@@ -10,9 +10,9 @@
                  </li>
                  <li class="nav-item">
                      <a class="navbar-brand" href="{{ route('admin.home') }}">
-                         <img class="brand-logo" alt="robust admin logo"
+                         <img class="brand-logo" alt="logo"
                              src="{{ asset('backend/app-assets/images/logo/logo-light-sm.png') }}">
-                         <h3 class="brand-text">Robust Admin</h3>
+                         <h3 class="brand-text"> Admin</h3>
                      </a>
                  </li>
                  <li class="nav-item d-md-none">

@@ -3,10 +3,10 @@
   Description: Menu navigation, custom scrollbar, hover scroll bar, multilevel menu
   initialization and manipulations
   ----------------------------------------------------------------------------------------
-  Item Name: Robust - Responsive Admin Template
-  Version: 2.1
-  Author: Pixinvent
-  Author URL: hhttp://www.themeforest.net/user/pixinvent
+  Item Name:
+  Version: 0.1
+  Author: TS
+  Author URL:
 ==========================================================================================*/
 (function(window, document, $) {
   'use strict';
@@ -728,14 +728,14 @@
           if($this.css( "border-top" )){
             if (menuObj.GetIEVersion() > 0)
               fromTop = $this.offset().top + parseInt($this.css( "border-top" ), 10);
-            else 
+            else
               fromTop = $this.position().top + parseInt($this.css( "border-top" ), 10);
             // fromTop = $this.position().top + parseInt($this.css( "border-top" ), 10);
           }
           else{
             if (menuObj.GetIEVersion() > 0)
               fromTop = $this.offset().top;
-            else 
+            else
               fromTop = $this.position().top;
             // fromTop = $this.position().top;
           }
@@ -873,11 +873,11 @@
       var Idx = sAgent.indexOf("MSIE");
 
       // If IE, return version number.
-      if (Idx > 0) 
+      if (Idx > 0)
         return parseInt(sAgent.substring(Idx+ 5, sAgent.indexOf(".", Idx)));
 
       // If IE 11 then look for Updated user agent string.
-      else if (!!navigator.userAgent.match(/Trident\/7\./)) 
+      else if (!!navigator.userAgent.match(/Trident\/7\./))
         return 11;
 
       else
@@ -895,12 +895,12 @@
       ul = $submenu.clone(true);
 
       menuHeaderHeight = $('.main-menu-header').height();
-      
-      if (this.GetIEVersion() > 0) 
+
+      if (this.GetIEVersion() > 0)
         menutop = $menuItem.offset().top;
-      else 
+      else
         menutop = $menuItem.position().top;
-      
+
       winHeight        = $window.height() - $('.header-navbar').height();
       borderWidth      = 0;
       subMenuHeight    = $submenu.height();
@@ -923,7 +923,7 @@
       else{
         topPos = menutop + $menuItem.height() + borderWidth;
       }
-      
+
       if($body.data('menu') == 'vertical-content-menu'){
         ul.addClass('menu-popout').appendTo('.main-menu-content').css({
           'top' : topPos,
