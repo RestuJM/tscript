@@ -73,6 +73,7 @@
                         return true;
                     },
                     success: function(result) {
+                        console.log(result)
                         if (result == 0) {
                             toastr.success('Success create database.', "Information");
                             setTimeout(() => {

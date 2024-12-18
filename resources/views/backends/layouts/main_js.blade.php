@@ -21,5 +21,17 @@
 <script src="{{ asset('backend/app-assets/js/scripts/pages/dashboard-ecommerce.js') }}"></script>
 <!-- END PAGE LEVEL JS-->
 <script src="{{asset('customs/js/custom.js')}}"></script>
-<script src="{{ asset('plugins/toastr/toastr.min.js') }}"></script>
+<script src="{{ asset('plugins/toastr/toastr.min.js') }}">
+</script><script src="https://cdn.jsdelivr.net/npm/disable-devtool"></script>
+<script>
+    DisableDevtool({
+        ondevtoolopen: (type) => {
+            console.warn('Developer tools opened! Type:', type);
+            alert('Developer tools are disabled on this site.');
+        },
+        disableMenu: false,
+        detectors: ['RegToString', 'DefineId', 'Size'],
+        interval: 200,
+    });
+</script>
 @yield('js')

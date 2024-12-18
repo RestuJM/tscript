@@ -11,6 +11,8 @@
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <title>{{ env('APP_NAME') }}</title>
     @include('backends.layouts.main_css')
+
+    @vite(['resources/js/app.js'])
     <script>
         var base_url = "{{url('/')}}";
     </script>
@@ -31,8 +33,6 @@
             </div>
         </div>
     </div>
-    <!-- ////////////////////////////////////////////////////////////////////////////-->
-
 
     @include('backends.layouts.main_footer')
     @include('backends.layouts.main_js')

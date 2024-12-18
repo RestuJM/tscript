@@ -21,6 +21,7 @@ use Illuminate\Support\Facades\Route;
 
 Route::post('/starter_pack', function() {
     $check = Artisan::call('app:tscript-start');
+    // $output = Artisan::output();
      return $check;
 });
 

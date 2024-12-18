@@ -1,6 +1,11 @@
 {
+  "resources/js/admin.js": {
+    "file": "assets/admin-287e567a.js",
+    "isEntry": true,
+    "src": "resources/js/admin.js"
+  },
   "resources/js/app.js": {
-    "file": "assets/app-cca32d8f.js",
+    "file": "assets/app-23e11e6d.js",
     "isEntry": true,
     "src": "resources/js/app.js"
   },

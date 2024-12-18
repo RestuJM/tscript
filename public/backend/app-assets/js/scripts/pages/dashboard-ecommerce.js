@@ -2,10 +2,10 @@
     File Name: advance-cards.js
     Description: intialize advance cards
     ----------------------------------------------------------------------------------------
-    Item Name: Robust - Responsive Admin Theme
-    Version: 1.2
-    Author: PIXINVENT
-    Author URL: http://www.themeforest.net/user/pixinvent
+    Item Name:
+    Version: 0.1
+    Author: TS
+    Author URL:
 ==========================================================================================*/
 // Stacked column chart
 // ------------------------------
